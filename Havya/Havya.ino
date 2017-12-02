@@ -6,7 +6,7 @@ LiquidCrystal lcd(A1, A0, 13, 12, 11, 10);
 #define uc   5
 #define dort 6
 #define pwm  9
-#define adc A7
+#define adc A2
 byte customChar[8] = {
   0b01000,
   0b10100,
