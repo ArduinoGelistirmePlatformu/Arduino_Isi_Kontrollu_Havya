@@ -1,5 +1,5 @@
 #include <LiquidCrystal.h>
-LiquidCrystal lcd(A0, A2, 10, 11, 12, 13);
+LiquidCrystal lcd(A1, A0, 13, 12, 11, 10);
 //button config
 #define bir  7
 #define iki  8
@@ -18,8 +18,6 @@ byte customChar[8] = {
   0b00000
 };
 void setup() {
-  pinMode(A1,       OUTPUT);
-  digitalWrite(A1,  LOW);
   pinMode(bir,      INPUT_PULLUP);
   pinMode(iki,      INPUT_PULLUP);
   pinMode(uc,       INPUT_PULLUP);
